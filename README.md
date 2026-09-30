@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Future Skills Academy
 
-## Getting Started
+### Education That Builds Futures.
 
-First, run the development server:
+Future Skills Academy is a modern educational website designed to present an engaging, professional, and trustworthy digital presence for an academy focused on **concept-based learning, practical skills, student growth, and future development**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website combines a clean educational identity with modern UI design, responsive layouts, smooth interactions, and subtle 3D visual effects.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Future Skills Academy is built to provide visitors with a clear understanding of the academy, its educational vision, faculty, and contact information through a polished and responsive web experience.
 
-## Learn More
+The project focuses on:
 
-To learn more about Next.js, take a look at the following resources:
+- 🎯 Clear educational communication
+- 📚 Concept-based learning
+- 🛠️ Practical skill development
+- 👨‍🏫 Faculty introduction
+- 🌱 Student growth
+- 📱 Responsive user experience
+- ✨ Premium modern UI
+- 🎨 Navy blue and golden brand identity
+- 🧊 Subtle 3D depth and cinematic interactions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Features
 
-## Deploy on Vercel
+### 🏠 Home Experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Premium cinematic hero section
+- Strong educational messaging
+- Interactive CTA buttons
+- Modern 3D visual elements
+- Responsive layout
+- Smooth hover interactions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📖 About Academy
+
+- Academy introduction
+- Mission and vision
+- Academy story
+- Core values
+- Why choose Future Skills Academy
+- Educational philosophy
+
+### 👨‍🏫 Faculty
+
+- Lead educator profile
+- Interactive profile presentation
+- 3D image interaction
+- Professional educator introduction
+- Portfolio integration
+
+### 📞 Contact
+
+- Professional contact section
+- Academy location information
+- Phone contact
+- Email contact
+- WhatsApp enquiry integration
+- Google Maps direction support
+
+### 🧭 Navigation
+
+- Responsive navbar
+- Desktop navigation
+- Mobile navigation menu
+- Active page indication
+- Smooth hover effects
+- Scroll-aware navbar styling
+- Keyboard accessibility
+- Reduced-motion support
+
+### 🎨 UI / UX
+
+- Premium navy and gold color system
+- Modern typography
+- Glass-like surfaces
+- Layered shadows
+- Subtle 3D depth
+- Smooth transitions
+- Responsive design
+- Mobile-first considerations
+- Accessible interactive elements
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js**
+- **React**
+- **JavaScript**
+- **Tailwind CSS**
+
+### Development Tools
+
+- **VS Code**
+- **Git**
+- **GitHub**
+- **Vercel**
+
+---
+
+## 📁 Project Structure
+
+```text
+future-skills-academy/
+│
+├── public/
+│   └── images/
+│       ├── faculty/
+│       │   ├── lead-teacher.jpg
+│       │   └── lead-teacher-back-v2.jpg
+│       │
+│       └── future-skills-logo.png
+│
+├── src/
+│   ├── app/
+│   │   ├── about/
+│   │   │   └── page.js
+│   │   │
+│   │   ├── contact/
+│   │   │   └── page.js
+│   │   │
+│   │   ├── faculty/
+│   │   │   └── page.js
+│   │   │
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   └── globals.css
+│   │
+│   └── components/
+│       ├── home/
+│       ├── about/
+│       ├── faculty/
+│       ├── contact/
+│       └── layout/
+│
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+└── README.md
